@@ -17,6 +17,7 @@ public class ReversedString {
         }
     }
 
+
     public static String reverseString(String s) {
         if (s == null || s.length() == 0) {
             return null;
