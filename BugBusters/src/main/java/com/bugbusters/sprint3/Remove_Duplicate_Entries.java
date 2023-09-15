@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class UniqueNumberListTool {
+public class Remove_Duplicate_Entries {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             List<Integer> originalList = new ArrayList<>();
