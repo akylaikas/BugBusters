@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b72b0bb-e053-4743-9a85-c0ec1ea9d53e" name="Changes" comment="" />
+    <list default="true" id="1b72b0bb-e053-4743-9a85-c0ec1ea9d53e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/BugBusters/src/main/java/com/bugbusters/sprint3/Managing_Unique_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BugBusters/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BugBusters/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
