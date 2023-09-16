@@ -1,0 +1,39 @@
+As an organized individual, I want a digital to-do list manager to help me
+keep track of tasks. I'd like a tool that allows me to add, remove, and view
+tasks on my to-do list. The tool should be interactive and ask for my input as
+I perform these actions.
+Acceptance Criteria:
+Given a menu of options to add, remove, or view tasks,
+When I choose to add a task and provide the task description,
+Then the tool should add the task to the list.
+And the tool should ask if I want to add more tasks to the list and repeat the
+process until I indicate that I'm done adding tasks.
+When I choose to remove a task and provide the task description,
+Then the tool should remove the task from the list.
+And the tool should ask if I want to remove more tasks from the list and repeat
+the process until I indicate that I'm done removing tasks.
+When I choose to view my to-do list,
+Then the tool should display the current list of tasks.
+And the tool should ask if I want to perform any other actions (add, remove, or
+exit).
+Example:
+Scenario: Managing To-Do List Interactively
+Given a menu of options to add, remove, or view tasks,
+When I choose to add a task and provide the task description, such as "Buy
+groceries",
+And I choose to add another task, providing "Finish report",
+And I indicate that I'm done adding tasks,
+Then the tool should add "Buy groceries" and "Finish report" to my to-do list.
+And when I choose to remove a task and input "Buy groceries",
+And I choose to remove another task, inputting "Finish report",
+And I indicate that I'm done removing tasks,
+Then the tool should remove "Buy groceries" and "Finish report" from my to-do list.
+And when I choose to view my to-do list,
+Then the tool should display the current list of tasks, if any.
+And the tool should ask if I want to add, remove, view, or exit.
+And I can continue interacting with the tool, adding, removing, viewing, or
+exiting as needed.
+
+This user story describes a to-do list manager program that interacts
+with the user to add, remove, and view tasks, allowing them to perform
+these actions iteratively until they decide to exit the program.
