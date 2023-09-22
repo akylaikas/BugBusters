@@ -62,7 +62,7 @@ public class Managing_Unique_Data {
         }
     }
 
-    private static void displayMenu() {
+    public static void displayMenu() {
         System.out.println("Menu:");
         System.out.println("1. Add an item");
         System.out.println("2. Remove an item");
@@ -72,7 +72,7 @@ public class Managing_Unique_Data {
         System.out.print("Enter your choice: ");
     }
 
-    private static void addItem(Set<String> collection, Scanner scanner) {
+    public static void addItem(Set<String> collection, Scanner scanner) {
         System.out.print("Enter the item to add: ");
         String item = scanner.nextLine();
         if (collection.add(item)) {
@@ -83,7 +83,7 @@ public class Managing_Unique_Data {
         askToAddMore(scanner);
     }
 
-    private static void removeItem(Set<String> collection, Scanner scanner) {
+    public static void removeItem(Set<String> collection, Scanner scanner) {
         System.out.print("Enter the item to remove: ");
         String item = scanner.nextLine();
         if (collection.remove(item)) {
@@ -94,11 +94,11 @@ public class Managing_Unique_Data {
         askToRemoveMore(scanner);
     }
 
-    private static void viewCollection(Set<String> collection) {
+    public static void viewCollection(Set<String> collection) {
         System.out.println("Collection contents: " + collection);
     }
 
-    private static void performUniqueDataOperation(Set<String> collection, Scanner scanner) {
+    public static void performUniqueDataOperation(Set<String> collection, Scanner scanner) {
         System.out.println("Choose a unique data operation:");
         System.out.println("1. Find unique items");
         System.out.println("2. Calculate the number of unique items");
@@ -119,7 +119,7 @@ public class Managing_Unique_Data {
         askToPerformMoreOperations(scanner);
     }
 
-    private static void askToAddMore(Scanner scanner) {
+    public static void askToAddMore(Scanner scanner) {
         System.out.print("Do you want to add more items? (yes/no): ");
         String response = scanner.nextLine().toLowerCase();
         if (!response.equals("yes")) {
@@ -127,7 +127,7 @@ public class Managing_Unique_Data {
         }
     }
 
-    private static void askToRemoveMore(Scanner scanner) {
+    public static void askToRemoveMore(Scanner scanner) {
         System.out.print("Do you want to remove more items? (yes/no): ");
         String response = scanner.nextLine().toLowerCase();
         if (!response.equals("yes")) {
@@ -135,7 +135,7 @@ public class Managing_Unique_Data {
         }
     }
 
-    private static void askToPerformMoreOperations(Scanner scanner) {
+    public static void askToPerformMoreOperations(Scanner scanner) {
         System.out.print("Do you want to perform more unique data operations? (yes/no): ");
         String response = scanner.nextLine().toLowerCase();
         if (!response.equals("yes")) {
