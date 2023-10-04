@@ -13,6 +13,9 @@ target/
 *.iws
 *.iml
 *.ipr
+.untitled/workspace.xml
+.idea/BugBusters/pom.xml
+
 
 
 ### Eclipse ###
